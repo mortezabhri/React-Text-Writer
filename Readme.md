@@ -6,7 +6,8 @@
 
 ### Text Writer :
 
-![Demo](https://mbahri.ir/portfolio-implemented/text-writer/text-writer.gif)
+![Demo](https://mbahri.ir/portfolio-implemented/text-writer/text-writer-1.gif)
+
 
 ---
 
