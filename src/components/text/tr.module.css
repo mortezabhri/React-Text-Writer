@@ -1,0 +1,62 @@
+/* ------TEXT WRITER------ */
+@keyframes slide {
+       0% {
+              opacity: 0;
+       }
+
+       75% {
+              opacity: 1;
+       }
+
+       100% {
+              opacity: 0;
+       }
+}
+
+.slideIn {
+       animation: slide 1000ms ease-in-out infinite;
+       font-weight: 900;
+}
+.vh{
+       visibility: hidden;
+}
+.vv{
+       visibility: visible;
+}
+
+/* ------ TEXT SLIDER ------ */
+
+.box {
+       position: relative;
+       width: 100%;
+       min-height: 120px;
+       height: 100%;
+       overflow: hidden;
+       /* border: 2px solid #000; */
+       border-radius: 10px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background: #fff;
+       color: #000;
+       font-family: sans-serif;
+}
+
+.text {
+       position: absolute;
+       top: -120%;
+       opacity: 0;
+       font-size: 22px;
+       transition: all 700ms ease , opacity 200ms ease;
+}
+
+.active {
+       top: 50% !important;
+       transform: translateY(-50%);
+       opacity: 1;
+}
+
+.exit {
+       top: 120% !important;
+       opacity: 0;
+}
